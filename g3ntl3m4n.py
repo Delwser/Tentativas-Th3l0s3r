@@ -5,7 +5,7 @@ import string
 
 while True:
     os.makedirs("DarkParasites" "a" , exist_ok=True)
-    with open(f"DarkParisites/bypass.txt") as arquivo:
+    with open(f"DarkParasites/bypass.txt") as arquivo:
          for _ in range(90000):
               arquivo.write(random.choice(string.ascii_letters + string.digits))
               arquivo.close()
